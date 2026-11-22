@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://almatropical.ie/sitemap.xml
