@@ -1,0 +1,26 @@
+{
+ "_note": "Source of truth for the daily almatropical.ie check. Update the day any fact on the site changes, then run tools/site_check.py.",
+ "pages": {
+  "/": {
+   "must": [
+    "opening soon",
+    "Alma Tropical Limited",
+    "819749",
+    "E25 TF85",
+    "hello@almatropical.ie"
+   ],
+   "must_not": [
+    "googleapis",
+    "€",
+    "Dublin"
+   ]
+  }
+ },
+ "placeholders": [
+  "[TO CONFIRM]",
+  "to be confirmed",
+  "Photo to follow",
+  "lorem ipsum"
+ ],
+ "cert_min_days": 14
+}
